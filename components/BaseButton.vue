@@ -22,7 +22,7 @@
   transition: 0.2s;
 
   &:hover {
-    background-color: $primaryColorDark;
+    background-color: $primaryColorSemiDark;
   }
 }
 </style>
