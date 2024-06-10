@@ -7,13 +7,14 @@
       <div class="text">
         {{ text }}
       </div>
-      <BaseButton class="redirectButton" :tag="'button'">Перейти</BaseButton>
+      <BaseButton class="redirectButton" :tag="NuxtLink" :to="url">Перейти</BaseButton>
     </div>
   </div>
 </template>
 
 <script setup lang="js">
-const props = defineProps(['title', 'text'])
+import NuxtLink from "#app/components/nuxt-link.js";
+const props = defineProps(['title', 'text', 'url'])
 </script>
 
 <style scoped lang="scss">
@@ -47,6 +48,7 @@ const props = defineProps(['title', 'text'])
 
 .redirectButton {
   position: absolute;
+  box-sizing: border-box;
   bottom: 0;
   width: 100%;
 }

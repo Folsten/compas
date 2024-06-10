@@ -8,7 +8,7 @@
       :navigation="true"
   >
     <SwiperSlide v-for="slide in slides" :key="slide">
-      <DocumentsSectionSliderSlide :title="slide.title" :text="slide.text"/>
+      <DocumentsSectionSliderSlide :title="slide.title" :text="slide.text" :url="slide.url"/>
     </SwiperSlide>
   </Swiper>
 </template>
