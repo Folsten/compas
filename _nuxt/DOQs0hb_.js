@@ -1,0 +1,1 @@
+import{_ as o}from"./fbdClrbk.js";import{o as t,x as s,I as n}from"./DALc4vGL.js";const _={},c={class:"baseH1Title"};function r(e,a){return t(),s("h1",c,[n(e.$slots,"default",{},void 0)])}const l=o(_,[["render",r],["__scopeId","data-v-71b63dfc"]]);export{l as _};

@@ -1,0 +1,1 @@
+import{_ as o}from"./DOQs0hb_.js";import{_ as t}from"./fbdClrbk.js";import{x as c,D as s,E as n,o as _,F as a}from"./DALc4vGL.js";const r={},i={class:"policy"};function l(m,f){const e=o;return _(),c("section",i,[s(e,null,{default:n(()=>[a("Политика обработки персональных данных")]),_:1})])}const u=t(r,[["render",l]]);export{u as default};
