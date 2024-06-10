@@ -25,7 +25,7 @@ const emit = defineEmits(['closeMobileMenu'])
 <style>
 .mobileMenu {
   z-index: 10;
-  position: absolute;
+  position: fixed;
   display: flex;
   width: 250px;
   right: -250px;
@@ -63,7 +63,7 @@ const emit = defineEmits(['closeMobileMenu'])
 
 .blackout {
   z-index: 5;
-  position: absolute;
+  position: fixed;
   display: flex;
   width: 100%;
   height: 100vh;

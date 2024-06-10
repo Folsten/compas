@@ -19,7 +19,7 @@ const emit = defineEmits(['closeModal'])
 <style scoped lang="scss">
 .blackout {
   z-index: 10;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
